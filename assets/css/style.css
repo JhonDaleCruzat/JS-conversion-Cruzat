@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    background: lightgrey;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-cal {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input label {
+    padding: 0 0 20px 0 ;
+}
+.input-box #num1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: lightgoldenrodyellow;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.buttons input {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border-color: 1px solid grey;
+    box-shadow: 0 0 8px black;
+    background: black;
+    color: white;
+    height: 30px;
+    width: 175px;
+}
+
+h3 {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    text-align: center;
+}

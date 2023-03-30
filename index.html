@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="con-cal">
+        <div class="topic">
+            <h1>Conversion Calculator</h1>
+        </div>
+        <form action="#" method="#">
+            <div class="input">
+                <div class="input-box">
+                    <label for="Celcius">Please input temperature in Celcius (°C): </label>
+                    <input type="number" id="num1" placeholder="ex. 20">
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="button" value="Fahrenheit (°F)" id="display" onClick="fahrenheit()">
+                <input type="button" value="Kelvin (K)" id="display" onClick="kelvin()">
+                <input type="button" value="Rankine (°R)" id="display" onClick="rankine()">
+            </div>
+        </form>
+        <h3 id="displayAns"></h3>
+    </div>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
