@@ -9,24 +9,33 @@
 </head>
 <body>
     <div class="con-cal">
+        <!-- Heading Title Start -->
         <div class="topic">
             <h1>Conversion Calculator</h1>
         </div>
+        <!-- Heading Title End -->
         <form action="#" method="#">
             <div class="input">
+                <!-- Input Box Start-->
                 <div class="input-box">
                     <label for="Celcius">Please input temperature in Celcius (°C): </label>
                     <input type="number" id="num1" placeholder="ex. 20">
                 </div>
+                <!-- Input Box End-->
             </div>
+            <!-- Buttons Start -->
             <div class="buttons">
                 <input type="button" value="Fahrenheit (°F)" id="display" onClick="fahrenheit()">
                 <input type="button" value="Kelvin (K)" id="display" onClick="kelvin()">
                 <input type="button" value="Rankine (°R)" id="display" onClick="rankine()">
             </div>
+            <!-- Buttons Start -->
         </form>
+        <!-- Result Start -->
         <h3 id="displayAns"></h3>
+        <!-- Result End -->
     </div>
+    <!-- Javascript -->
     <script src="assets/script/script.js"></script>
 </body>
 </html>
